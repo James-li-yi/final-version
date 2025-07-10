@@ -11,16 +11,7 @@ st.set_page_config(page_title="保利物业拓展分析", layout="wide")
 
 # 标题
 st.title(" 保利物业2024-2025年市场拓展分析")
-st.markdown(
-    """
-    <style>
-    .stApp {
-        background-color: black;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+
 
 # 侧边栏 - 文件上传
 st.sidebar.header("📁 数据文件上传")
